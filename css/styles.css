@@ -1,0 +1,26 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', arial;
+    
+}
+.container {
+    display:flex;
+    
+    border-color: black;
+    border: 5px solid;   
+}
+
+.logo {
+    margin-right: auto;
+}
+
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 100px;
+    align-items: flex-start;
+    border-color: black;
+    border: 5px solid;
+}
