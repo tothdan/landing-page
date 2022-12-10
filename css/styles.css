@@ -4,15 +4,22 @@
     font-family: 'Roboto', arial;
     
 }
+.container {
+    display:flex;
+    flex-direction: column;
+    
+
+}
 
     /*navbar section*/
 
 .navbar {
     display: flex;
+    justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 20px 0px 20px 100px;
-    align-items: center;
+    padding: 20px 200px;
+    
     
 }
 .header-logo {
@@ -21,9 +28,7 @@
 
 .link-list {
     display: flex;
-    margin-left: auto;
-    padding-right: 100px;
-    gap: 20px;
+    gap: 40px;
 }
 
 .link-list a { 
@@ -31,15 +36,21 @@
     color: #E5e7EB;
     font-size: 18px;
 }
+
+.link-list a:hover{
+    color: #7300df;
+    transition: all 0.9s ease-in;
+}
+
     /*hero section*/
 
 .hero {
     display: flex;
     background-color: #1F2937;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     color: #F9FAF8;
-    padding: 90px;
+    padding: 90px 400px;
     
 }
 
@@ -48,12 +59,12 @@
     flex-direction: column;
     flex-basis: 400px;
     text-align: left;
-    margin-right: 50px;
+   
     
     
 }
 
-h2 {
+h1 {
     font-size: 48px;
     font-weight: bolder;
     margin: 0;
@@ -77,15 +88,22 @@ h2 {
     border-radius: 10px;
     color: #E5E7EB;
     font-weight: bold;
+    
+}
+.hero-text button:hover {
+    cursor:pointer;
+    background: #7300df;
+    opacity: 0.7;
+    transform: rotate(360deg);
+    transition: all 1.5s ease-in;
 }
 
 .hero-img {
     display: flex;
-    margin-left: auto;
-   
+    
 }
 
 .hero-img img{
-    width: 300px;
+    width: 250px;
     height: 200px;
 }
