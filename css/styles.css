@@ -120,7 +120,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 50px 350px;
+    margin: 90px 350px;
     
 }
 
@@ -164,4 +164,76 @@ figcaption {
 figure:hover {
     transition: 1s;
     opacity: 1;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 90px 400px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+
+.quote-section p {
+   text-align: right;
+   margin-right: 50px;
+   font-size: 24px;
+   font-weight: bolder;
+}
+
+.action {
+    display: flex;
+    margin: 90px 350px;
+    background-color: #3882f6;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 18px;
+   
+}
+.action-text p {
+    opacity: 0.7;
+}
+.action button {
+    margin-top: 5px;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer p {
+    padding: 20px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
